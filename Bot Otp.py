@@ -1,3 +1,7 @@
+import os
+os.system('pip install requests')
+os.system('pip install telebot')
+os.system('pip install user_agent')
 import requests
 import telebot
 from telebot import types
@@ -9,8 +13,6 @@ import user_agent
 from getuseragent import UserAgent
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import jwt
-import webbrowser
-channel_link = ''
 admin = 6520043159
 token = "7529238194:AAGtgtEJAdtSc6DaMgxiOPocdkvLXmv_V0w"
 bot=telebot.TeleBot(token,parse_mode="HTML")
